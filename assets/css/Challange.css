@@ -1,0 +1,274 @@
+@font-face {
+    font-family:akpan ;
+    src: url(../fonts/Roboto-Bold.ttf);
+ }
+ @font-face {
+    font-family:utitofon ;
+    src: url(../fonts/Roboto-Regular.ttf);
+ } 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+.parentcontainer{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.secondcontainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(31, 33, 69);
+}
+.Brother1{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Brother2{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fre{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 9%;
+}
+.youe{
+    font-size:70px;
+    color: transparent;
+    font-weight: 600;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-repeat: no-repeat;
+    background-position: -500px 0;
+    -webkit-text-stroke: 0.5px white;
+    background-image: linear-gradient(white, white) ;
+    font-family: akpan;
+    padding: 0 5px 0 5px;
+    margin-top: 10%;
+    animation: high 5s linear infinite alternate;
+}
+@keyframes high{
+    100%{
+        background-position: 0 0;
+    }
+}
+.lads{
+    height: 95%;
+    width: 100%;
+    display: flex;
+}
+.onetimedear{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.babdu{
+    font-family: utitofon;
+    font-size: 17px;
+    color: white;
+    flex-wrap: wrap;
+    display: flex;
+    width: 62%;
+    justify-content: center;
+    margin-top: 3%;
+    align-items: center;
+}
+.wonnaplay{
+    width: 62%;
+    display: flex;
+    /* justify-content: ; */
+    align-items: center;
+    gap: 18px;
+    margin-top: 3%;
+}
+.wonnaplay p{
+    color: white !important;
+    font-size: 1em;
+    font-family: utitofon;
+}
+.seniorbro{
+    width: 62%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6%;
+}
+.pantclub{
+   
+    font-size: .9em;
+    color: white;
+    font-family: utitofon;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+.bad_boy{
+    font-size: .8em;
+    color: white;
+    font-family: utitofon;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+.bro0{
+    color: rgb(185, 60, 60) ;
+}
+.turnup{
+    border:2px solid red !important;
+}
+.infinity{
+    width: 62%;
+    margin-top: 2%;
+    height: 35px;
+    display: flex;
+}
+.infinity1{
+    width: 62%;
+    margin-top: 3%;
+    height: 35px;
+    display: flex;
+}
+.mymouth{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background: transparent;
+    outline: none;
+    border: 2px solid white;
+    color: white;
+    padding: 0 5px 0 5px;
+    border-radius: 5px;
+    font-size: .9em;
+    font-weight: 500;
+    font-family: utitofon;
+}
+.mymouth1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background: transparent;
+    outline: none;
+    border: 2px solid white;
+    color: rgb(15, 14, 14);
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    font-weight: 600;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-family: utitofon;
+    transition: 0.2s linear;
+}
+.mymouth1:active{
+    opacity: 0.5;
+}
+.mymouth1:hover{
+    background: linear-gradient(45deg,  rgb(162, 45, 36),rgb(162, 45, 36),  rgba(169, 76, 69, 0.893));
+    color: white;
+    transition: 0.2s linear;
+}
+
+
+                        /* JAVASCRIPT STYLING START HERE */
+.successContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgb(31, 33, 69);
+    backdrop-filter: blur(13px);
+}
+.jealous{
+    height: 70%; 
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2.2%;
+    overflow: auto;
+    border-radius: 6px;
+    background: white;
+}
+.fontwraper{
+    width: 55%;
+    display: flex;
+    align-items: center;
+}
+.tekno{
+    font-size:50px;
+    color: black;
+    font-weight: 600;
+    font-family: akpan;
+    align-items: center;
+    display: flex;
+    padding: 0 5px 0 5px;
+    justify-content: center;
+    width: 50%;
+    margin-top: 2%;
+}
+.dids{
+    color: rgb(186, 84, 76);
+    font-size: 5em;
+}
+.negro{
+    width: 50%;
+    display: flex;
+    color: black;
+    overflow-wrap:anywhere;
+    height: auto;
+    align-items: center;
+    overflow-y: auto;
+    font-family: utitofon;
+}
+.Fuckme_dear{
+    width: 50%;
+    height: 40px;
+    display: flex;
+    background: rgb(31, 33, 69);
+    margin-top: 7%;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1em;
+    font-family: utitofon;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.Fuckme_dear:active{
+    opacity: 0.5;
+}
+.Fuckme_dear:hover{
+    background: linear-gradient(45deg,  rgb(162, 45, 36),rgb(162, 45, 36),  rgba(169, 76, 69, 0.893));
+    color: white;
+    transition: 0.2s linear;
+    border: none;
+}
